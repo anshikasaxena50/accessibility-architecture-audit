@@ -1,1 +1,10 @@
+{
+"name": "accessibility-audit-server",
+"version": "1.0.0",
+"description": "Server for the accessible document search feature",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+}
+}
 
