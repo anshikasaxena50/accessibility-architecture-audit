@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Document Search</title>
+</head>
+<body>
+
+```
+<main>
+    <h1>Accessible Document Search</h1>
+
+    <form id="search-form">
+        <label for="search-input">Search documents</label>
+        <input
+            type="search"
+            id="search-input"
+            name="query"
+            placeholder="Enter a document name"
+        >
+        <button type="submit">Search</button>
+    </form>
+
+    <section aria-labelledby="results-heading">
+        <h2 id="results-heading">Search Results</h2>
+        <div id="results" aria-live="polite"></div>
+    </section>
+</main>
+
+<script src="app.js"></script>
+```
+
+</body>
+</html>
 
